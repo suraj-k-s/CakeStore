@@ -1,0 +1,61 @@
+<html>
+<body>
+ <form>
+ <table border="1">
+     <tr>
+	<td> Number-1</td>
+	<td> <input type="text" name="num1"></td>
+     </tr>
+     <tr>
+	<td> number-2</td>
+	<td> <input type="text" name="num2"></td>
+     </tr>
+     <tr>
+	<td colspan="2" align="center">
+	   <input type="submit" name="add" value="+">
+	   <input type="submit" name="diff" value="-">
+	   <input type="submit" name="mul" value="*">
+	   <input type="submit" name="div" value="/">
+        </td>
+     </tr>
+     <tr>
+	<td>Result</td>
+	<td><input type="text" name="result"></td>
+     </tr>
+ </table>
+ </form>
+ </body>
+ </html>
+
+
+<?php
+if(isset($_GET["add"])
+{
+ $num1=$_GET["num1"]
+ $num2=$_GET["num2"]
+ $result=$num1+num2
+}
+if(isset($_GET["diff"])
+{
+ $num1=$_GET["num1"]
+ $num2=$_GET["num2"]
+ $result=$num1-num2
+}
+if(isset($_GET["mul"])
+{
+ $num1=$_GET["num1"]
+ $num2=$_GET["num2"]
+ $result=$num1*num2
+}
+if(isset($_GET["div"])
+{
+ $num1=$_GET["num1"]
+ $num2=$_GET["num2"]
+ $result=$num1/num2
+}
+
+
+ 
+
+
+	
